@@ -62,6 +62,12 @@ main() {
   //And default parameters
   print(optoinalDefaultAdd(1, 2));
   print(optoinalDefaultAdd(1, 2, c: 3));
+  //Named optional functions are very important in flutter. Nearly all class constructors uses the named optional approach.
+  //For example:
+  /*
+  Center({Key key, double widthFactor, double heightFactor, Widget child })
+  Creates a widget that centers its child. 
+  */
   print(optoinalDefaultAdd(1, 2, c: 3, d: 4));
 
   //Exceptional Handling
@@ -87,7 +93,12 @@ int optoinalAdd(int a, int b, [int c, int d]) {
   else
     return a + b;
 }
-
+ //Named optional functions are very important in flutter. Nearly all class constructors uses the named optional approach.
+  //For example:
+  /*
+  Center({Key key, double widthFactor, double heightFactor, Widget child })
+  Creates a widget that centers its child. 
+  */
 int optoinalDefaultAdd(int a, int b, {c = 0, d = 0}) {
   return a + b + c + d;
 }
