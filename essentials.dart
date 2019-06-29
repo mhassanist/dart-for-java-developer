@@ -35,6 +35,10 @@ main() {
   print(s);
 
   //Conditionals and loops are the same as in Java
+   
+  for (int i = 0; i < 5; i++) {
+    print('hello ${i + 1}');
+  }
   // foreach also is there with slight difference
   List names = ["Mohammed", "Samy", "John", "Peter"];
   for (String name in names) {
