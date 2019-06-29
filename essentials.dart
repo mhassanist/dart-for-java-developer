@@ -8,9 +8,12 @@ main() {
   //Print string. String can be single or double qoutes (like PHP)
   print("Hello World");
 
-  //Declare and initialize int variable. You can also use var  
+  //data types are: int, double, bool, String 
   int aNumber = 30;
   var bNumber = 50;
+  num cNumber = 12.5;
+  double dNUmber = 5.12;
+  String s = "Hello Strings in Dart";
   
   //You can also print variables withing string by preceeding it with $. You can do the same for expressions by enclosing them between  ${EXPRESSION_GOES_HERE}
   print('The number is $aNumber.\nNumber2 is: $bNumber'); // Print to console.
@@ -20,7 +23,12 @@ main() {
   //Note:
   print('The number is $aNumber + $bNumber'); // prints > The number is 30 + 50
   
+  print('The number is $cNumber'); // prints > The number is 12.5
+ 
+  print(cNumber); // prints > 12.5
+  print(dNUmber); // prints > 5.12
   
-  
+  print(s); 
+
   
 }
